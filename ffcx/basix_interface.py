@@ -14,12 +14,18 @@ basix_cells = {
 # This dictionary can be used to map ufl element names to basix element names.
 # Currently all the names agree but this will not necessarily remian true.
 ufl_to_basix_names = {
-    "Q": "Lagrange",
-    "DQ": "Discontinuous Lagrange",
-    "RTCE": "Nedelec 1st kind H(curl)",
-    "NCE": "Nedelec 1st kind H(curl)",
-    "RTCF": "Raviart-Thomas",
-    "NCF": "Raviart-Thomas",
+    "Lagrange": "P",
+    "Discontinuous Lagrange": "DP",
+    "Q": "P",
+    "DQ": "DP",
+    "Brezzi-Douglas-Marini": "BDM",
+    "Raviart-Thomas": "RT",
+    "Nedelec 1st kind H(curl)": "N1E",
+    "Nedelec 2st kind H(curl)": "N2E",
+    "RTCE": "N1E",
+    "NCE": "N1E",
+    "RTCF": "RT",
+    "NCF": "RT",
 }
 
 

@@ -37,7 +37,7 @@ jobs:
         with:
           path: ./basix
           repository: FEniCS/basix
-          ref: main
+          ref: mscroggs/shorter-names
 
       - name: Install Basix
         run: |
